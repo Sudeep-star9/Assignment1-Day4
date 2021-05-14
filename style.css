@@ -1,0 +1,208 @@
+*{
+    margin: 0%;
+}
+.page-wrapper{
+
+    width: 100%;
+    background-attachment: fixed;
+   overflow: hidden;
+}
+.top-contain{
+    height: 27vh;
+    width: 100%;
+    background-color: black;
+}
+
+input{
+    width: 40%;
+    margin-left :20%;
+    padding: 0.7%;
+    margin-top: 2%;
+    
+
+}
+li{
+    display: inline-block;
+    color: white;
+  padding-left: 2.5%;
+  cursor: pointer;
+}
+li:hover{
+background-color: orangered;
+}
+.photo{
+    height: 11vh;
+    width: 15%;
+    background-image: url(img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+.second-contain{
+    width: 100%;
+    height: 10vh;
+    background-color:orange;
+    overflow: hidden;
+}
+button{
+    height:10vh ;
+    width: 6%;
+    background: orange;
+    border-color:orange;
+    font-size: 80%;
+   
+}
+.photo1{
+    width: 100%;
+    height: 20vh;
+    background-image: url(img2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 1%;
+}
+.box1{
+    width: 80%;
+    height: 20vh;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 1%;
+
+    overflow: hidden;
+}
+.inside-box{
+    width:0.6%;
+    height:15vh;
+    background-color:orange;
+   display: inline-block;
+}
+.heading{
+    display: inline-block;
+    width: 75%;
+    font-size: 200%;
+    margin-left: 8%;
+    color:blue;
+    margin-bottom: 10%;
+}
+
+.box2{
+    width: 90%;
+    height: 20vh;
+    border: 1px solid white;
+    margin-left: 9.8%;
+    margin-top: 2%;
+    overflow: hidden;
+}
+.inside-box{
+    width:0.6%;
+    height:15vh;
+    background-color:orange;
+   display: inline-block;
+}
+.heading{
+    display: inline-block;
+    width: 75%;
+    font-size: 200%;
+    margin-left: 8%;
+    color:blue;
+    margin-bottom: 10%;
+}
+
+.box3{
+    width: 90%;
+    height: 20vh;
+    border: 1px solid white;
+    margin-left: 9.8%;
+    margin-top: 2%;
+    overflow: hidden;
+}
+.inside-box{
+    width:0.6%;
+    height:18vh;
+    background-color:orange;
+   display: inline-block;
+}
+.heading:hover{
+    display: inline-block;
+    width: 75%;
+    font-size: 200%;
+    margin-left: 8%;
+    color:blue;
+    margin-bottom: 20%;
+    background-color: orangered;
+    cursor: pointer;
+}
+select{
+    width: 90%;
+    background-color: orange;
+    height: 4vh;
+    border: none;
+   
+}
+.box4{
+    height: 60vh;
+    width: 40%;
+    border: 1px solid rgb(240, 230, 230);
+    margin-top: 4%;
+    margin-left: 9.5%;
+    box-shadow:2px 2px grey;
+  float: left;
+    
+}
+p{
+    
+    font-size: 100%;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(223, 215, 215);
+    width: 90%;
+    margin-left: 20px;
+    padding: 3px;
+    display: inline-block;
+}
+p:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+.box5{
+    border: 1px solid white;
+    height: 55vh;
+    width:35%;
+    margin-top: 5%;
+   margin-left: 1%;
+   float: right;
+}
+.box6{
+    height: 14%;
+    width: 100%;
+    border: 1px solid white;
+   display: inline-block;
+
+   
+}
+h4{
+    display: inline-block;
+    margin-left: 6%;
+}
+table{
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+tr,td, th{
+    border: 1px solid white(189, 22, 22);
+    width: 5%;
+    padding: 2%;
+    
+}
+.black{
+    background-color:rgb(90, 88, 88);
+font-weight: bolder;
+}
+.sky{
+    background-color: skyblue;
+}
+.green{
+    background-color: green;
+}
